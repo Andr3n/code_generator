@@ -1,0 +1,7 @@
+python_code_generator::generate_class_function_code("rename", [name]).
+python_code_generator::generate_class_function_code("get_name", []).
+python_code_generator::generate_class_function_code("get_name", '').
+
+python_code_generator::generate_class_code("Person", [name, age, sex]).
+python_code_generator::generate_class_code("Person", []).
+python_code_generator::generate_class_code("Person", '').

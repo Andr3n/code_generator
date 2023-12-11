@@ -1,0 +1,1 @@
+"C:\Program Files\swipl\bin\swipl.exe" -s "C:\Program Files (x86)\logtalk\integration\logtalk_swi.pl"
