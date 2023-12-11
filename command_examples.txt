@@ -1,7 +1,22 @@
+# first run in cmd
+start.bat
+{code_generators}.
+
+# Python examples
+python_code_generator::generate_class_code("Person", [name, age, sex]).
+python_code_generator::generate_class_code("Person", []).
+python_code_generator::generate_class_code("Person", '').
+
 python_code_generator::generate_class_function_code("rename", [name]).
 python_code_generator::generate_class_function_code("get_name", []).
 python_code_generator::generate_class_function_code("get_name", '').
 
-python_code_generator::generate_class_code("Person", [name, age, sex]).
-python_code_generator::generate_class_code("Person", []).
-python_code_generator::generate_class_code("Person", '').
+# C++ examples
+cpp_code_generator::generate_class_code("Person", [string:name, int:age, char:sex]).
+cpp_code_generator::generate_class_code("Person", []).
+cpp_code_generator::generate_class_code("Person", '').
+
+cpp_code_generator::generate_class_function_code("rename", [string:name]).
+cpp_code_generator::generate_class_function_code("get_name", []).
+cpp_code_generator::generate_class_function_code("get_name", '').
+
